@@ -1,0 +1,32 @@
+{
+  "name": "new-aliencce-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jubaer225/new-aliencce-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/jubaer225/new-aliencce-backend/issues"
+  },
+  "homepage": "https://github.com/jubaer225/new-aliencce-backend#readme",
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.5.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.5",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}
